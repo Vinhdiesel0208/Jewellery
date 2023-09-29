@@ -1,0 +1,153 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Group3.csproj": {}
+  },
+  "projects": {
+    "/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Group3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Group3.csproj",
+        "projectName": "Group3",
+        "projectPath": "/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Group3.csproj",
+        "packagesPath": "/Users/macos/.nuget/packages/",
+        "outputPath": "/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/macos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Lib/Lib.csproj": {
+                "projectPath": "/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Lib/Lib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Lib/Lib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Lib/Lib.csproj",
+        "projectName": "Lib",
+        "projectPath": "/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Lib/Lib.csproj",
+        "packagesPath": "/Users/macos/.nuget/packages/",
+        "outputPath": "/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Lib/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/macos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

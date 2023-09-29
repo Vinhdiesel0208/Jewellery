@@ -1,0 +1,43 @@
+﻿@model Lib.Contact
+
+@{
+    ViewBag.Title = "Contact";
+}
+
+<form asp-controller="Frontend" asp-action="Contact" method="post">
+    <div class="p-3 p-lg-5 border">
+        <!-- Các trường dữ liệu hiện tại -->
+        <div class="form-group">
+            <label asp-for="Name" class="text-black">Name <span class="text-danger">*</span></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Phone" class="text-black">Phone</label>
+            <input asp-for="Phone" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Email" class="text-black">Email <span class="text-danger">*</span></label>
+            <input asp-for="Email" class="form-control" />@Html.DisplayFor(model => model.Email)
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Address" class="text-black">Address</label>
+            <input asp-for="Address" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Message" class="text-black">Message</label>
+            <textarea asp-for="Message" class="form-control" rows="7"></textarea>
+        </div>
+
+        <!-- Thêm trường DateSent để hiển thị ngày gửi -->
+        <div class="form-group">
+            <label class="text-black">Date Sent</label>
+            <input class="form-control" value="@Model.DateSent.ToString("yyyy-MM-dd HH:mm:ss")" readonly />
+        </div>
+
+        <div class="form-group">
+            <input type="submit" class="btn btn-primary btn-lg btn-block" value="Send Message" />
+        </div>
+    </div>
+</form>

@@ -1,0 +1,22 @@
+﻿@model Lib.Blogs
+
+
+<!DOCTYPE html>
+
+<html>
+
+<div class="site-section">
+    <div class="container">
+        <div class="row mb-5">
+            <input type="hidden" asp-for="@Model.ID" />
+            <artifact>
+                <h1>@Model.Title</h1>
+                <p class="text-muted">Ngày đăng: @Model.PublishDate.ToString("dd/MM/yyyy")</p>
+                <img src="@Url.Content("~/images/Blogs/" + Model.Photo)" alt="@Model.Title" class="img mb-4" />
+                <p>@Model.Content1</p>
+                <p>@Model.Content2</p>
+                <p>@Model.Content3</p>
+                <p class="text-muted">Tác giả: @Model.Author</p>
+            </artifact>
+        </div>
+</html>

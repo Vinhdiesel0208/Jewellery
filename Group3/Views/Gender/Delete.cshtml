@@ -1,0 +1,41 @@
+﻿@model Lib.Gender
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "_BackendLayout";
+}
+
+<div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+     data-sidebar-position="fixed" data-header-position="fixed">
+
+    @await Html.PartialAsync("~/Views/Backend/_Aside.cshtml")
+
+    <div class="body-wrapper">
+
+        @await Html.PartialAsync("~/Views/Backend/_Header.cshtml")
+
+        <div class="container-fluid">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title fw-semibold mb-4">Confirm Delete Gender</h5>
+                    <div class="card">
+                        <div class="card-body">
+                            <form asp-action="DeleteConfirmed" method="post" enctype="multipart/form-data">
+                                <div class="mb-3">
+                                    <label asp-for="Gender_Id" class="form-label">Gender ID</label>
+                                    <input asp-for="Gender_Id" class="form-control" readonly />
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="Gender_Name" class="form-label">Gender Name</label>
+                                    <input asp-for="Gender_Name" class="form-control" readonly />
+                                </div>
+                                <button type="submit" class="btn btn-danger">Delete</button>
+                                <a class="btn btn-primary" asp-action="Index">Cancel</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

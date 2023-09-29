@@ -1,0 +1,40 @@
+﻿@model Lib.Contact
+
+@{
+    ViewData["Title"] = "Send Response Email";
+    Layout = "_Layout";
+}
+
+<h2>Send Response Email</h2>
+
+<p>You are about to send a response email to the contact with the following details:</p>
+<table class="table">
+    <tr>
+        <th>Name:</th>
+        <td>@Model.Name</td>
+    </tr>
+    <tr>
+        <th>Email:</th>
+        <td>@Model.Email</td>
+    </tr>
+    <tr>
+        <th>Phone:</th>
+        <td>@Model.Phone</td>
+    </tr>
+    <tr>
+        <th>Address:</th>
+        <td>@Model.Address</td>
+    </tr>
+    <tr>
+        <th>Message:</th>
+        <td>@Model.Message</td>
+    </tr>
+    <tr>
+        <th>Date Sent:</th>
+        <td>@Model.DateSent.ToString("yyyy-MM-dd HH:mm:ss")</td>
+    </tr>
+</table>
+
+<form asp-controller="Contact" asp-action="SendResponseEmail" asp-route-id="@Model.Id" method="post">
+    <button type="submit" class="btn btn-success">Send Response Email</button>
+</form>

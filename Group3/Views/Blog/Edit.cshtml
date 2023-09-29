@@ -1,0 +1,87 @@
+﻿@model Lib.Blogs
+
+@{
+    ViewData["Title"] = "Edit Product";
+    Layout = "_BackendLayout";
+}
+
+<div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+     data-sidebar-position="fixed" data-header-position="fixed">
+
+    @await Html.PartialAsync("~/Views/Backend/_Aside.cshtml")
+
+    <div class="body-wrapper">
+
+        @await Html.PartialAsync("~/Views/Backend/_Header.cshtml")
+
+        <div class="col-lg-12 d-flex align-items-stretch">
+            <div class="card w-100">
+                <div class="card-body p-4">
+                    <h5 class="card-title fw-semibold mb-4">Edit Blog</h5>
+
+
+                    @if (!string.IsNullOrEmpty(TempData["msg"] as string))
+                    {
+                        <div class="alert alert-success">
+                            @TempData["msg"]
+                        </div>
+                    }
+                    @if (!string.IsNullOrEmpty(TempData["errmsg"] as string))
+                    {
+                        <div class="alert alert-danger">
+                            @TempData["errmsg"]
+                        </div>
+                    }
+                
+                    <form asp-action="Edit" asp-controller="Blog" method="post" enctype="multipart/form-data">
+                        <input type="hidden" asp-for="ID" />
+                        <div class="mb-3">
+                            <label asp-for="Title" class="form-label">Tiêu đề</label>
+                            <input asp-for="Title" class="form-control" />
+                            <span asp-validation-for="Title" class="text-danger form-text"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Summary" class="form-label">Tóm Tắt</label>
+                            <input asp-for="Summary" class="form-control" />
+                            <span asp-validation-for="Summary" class="text-danger form-text"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Content1" class="form-label">Nội dung 1</label>
+                            <textarea asp-for="Content1" class="form-control" cols="30" rows="10"></textarea>
+                           
+                            <span asp-validation-for="Content1" class="text-danger form-text"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Content2" class="form-label">Nội dung 2 </label>
+                            <textarea asp-for="Content2" class="form-control" cols="30" rows="10"></textarea>
+                            <span asp-validation-for="Content2" class="text-danger form-text"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Content3" class="form-label">Nội dung 3 </label>
+                            <textarea asp-for="Content3" class="form-control" cols="30" rows="10"></textarea>
+                            <span asp-validation-for="Content3" class="text-danger form-text"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Author" class="form-label">Tác giả</label>
+                            <input asp-for="Author" class="form-control" type="text" />
+                            <span asp-validation-for="Author" class="text-danger form-text"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="PublishDate" class="form-label">Ngày đăng</label>
+                            <input asp-for="PublishDate" class="form-control" type="datetime-local" />
+                            <span asp-validation-for="PublishDate" class="text-danger form-text"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <img src="@Url.Content("~/images/Blogs/"+Model.Photo)" width="150" height="150" />
+                            <label asp-for="Photo" class="form-label">Hình ảnh</label>
+                            <input type="file" name="file" class="form-control" />
+                            <span asp-validation-for="Photo" class="text-danger form-text"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

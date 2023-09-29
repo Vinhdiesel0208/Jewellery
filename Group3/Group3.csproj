@@ -1,0 +1,78 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <None Remove="Db\" />
+    <None Remove="Reponsitory\" />
+    <None Remove="Services\" />
+    <None Remove="Views\FrontEnd\" />
+    <None Remove="Views\BackEnd\" />
+    <None Remove="Views\Authen\" />
+    <None Remove="Views\Comment\" />
+    <None Remove="Views\Item\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Db\" />
+    <Folder Include="Views\BackEnd\" />
+    <Folder Include="wwwroot\images\Blogs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Views\Cate\Create.cshtml" />
+    <None Include="Views\Cate\Delete.cshtml" />
+    <None Include="Views\Cate\Edit.cshtml" />
+    <None Include="Views\Cate\Index.cshtml" />
+    <None Include="Views\Contact\Detail.cshtml" />
+    <None Include="Views\Contact\EmailSentError.cshtml" />
+    <None Include="Views\Contact\EmailSentSuccess.cshtml" />
+    <None Include="Views\Contact\Index.cshtml" />
+    <None Include="Views\Contact\SendResponseEmail.cshtml" />
+    <None Include="Views\CreateAccount\Create.cshtml" />
+    <None Include="Views\CreateAccount\Details.cshtml" />
+    <None Include="Views\CreateAccount\EditByAdmin.cshtml" />
+    <None Include="Views\CreateAccount\EditByUser.cshtml" />
+    <None Include="Views\CreateAccount\Index.cshtml" />
+    <None Include="Views\Gender\Create.cshtml" />
+    <None Include="Views\Gender\Delete.cshtml" />
+    <None Include="Views\Gender\Edit.cshtml" />
+    <None Include="Views\Gender\Index.cshtml" />
+    <None Include="Views\Prod\Create.cshtml" />
+    <None Include="Views\Prod\Delete.cshtml" />
+    <None Include="Views\Prod\Edit.cshtml" />
+    <None Include="Views\Prod\Index.cshtml" />
+    <None Include="Views\Type\Create.cshtml" />
+    <None Include="Views\Type\Delete.cshtml" />
+    <None Include="Views\Type\Edit.cshtml" />
+    <None Include="Views\Type\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="7.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.11">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.11" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.10" />
+    <PackageReference Include="MailKit" Version="4.2.0" />
+    <PackageReference Include="MimeKit" Version="4.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lib\Lib.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\images\Blogs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Lib">
+      <HintPath>..\Lib\bin\Debug\net7.0\Lib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

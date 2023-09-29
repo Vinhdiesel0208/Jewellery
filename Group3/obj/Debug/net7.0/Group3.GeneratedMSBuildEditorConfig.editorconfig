@@ -1,0 +1,229 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Group3
+build_property.RootNamespace = Group3
+build_property.ProjectDir = /Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Authen/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aGVuL0xvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Authen/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aGVuL1JlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Authen/signin-google.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aGVuL3NpZ25pbi1nb29nbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/BackEnd/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmFja0VuZC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/BackEnd/_Aside.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmFja0VuZC9fQXNpZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/BackEnd/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmFja0VuZC9fSGVhZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Blog/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Blog/DetailBlog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZy9EZXRhaWxCbG9nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Blog/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Blog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Blog/IndexBlogs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZy9JbmRleEJsb2dzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Brand/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQnJhbmQvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Brand/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQnJhbmQvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Brand/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQnJhbmQvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Brand/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQnJhbmQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Cate/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Cate/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZS9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Cate/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZS9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Cate/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Contact/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGFjdC9EZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Contact/EmailSentError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGFjdC9FbWFpbFNlbnRFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Contact/EmailSentSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGFjdC9FbWFpbFNlbnRTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGFjdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Contact/SendResponseEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGFjdC9TZW5kUmVzcG9uc2VFbWFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/CreateAccount/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3JlYXRlQWNjb3VudC9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/CreateAccount/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3JlYXRlQWNjb3VudC9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/CreateAccount/EditByAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3JlYXRlQWNjb3VudC9FZGl0QnlBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/CreateAccount/EditByUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3JlYXRlQWNjb3VudC9FZGl0QnlVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/CreateAccount/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3JlYXRlQWNjb3VudC9Gb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/CreateAccount/ForgotPasswordConfirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3JlYXRlQWNjb3VudC9Gb3Jnb3RQYXNzd29yZENvbmZpcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/CreateAccount/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3JlYXRlQWNjb3VudC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/FrontEnd/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRnJvbnRFbmQvQ29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/FrontEnd/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRnJvbnRFbmQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Gender/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2VuZGVyL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Gender/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2VuZGVyL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Gender/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2VuZGVyL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Gender/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2VuZGVyL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Prod/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZC9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Prod/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZC9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Prod/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZC9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Prod/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Shared/_BackendLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19CYWNrZW5kTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Type/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHlwZS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Type/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHlwZS9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Type/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHlwZS9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Type/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHlwZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Group3/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-jgzz28zxkk

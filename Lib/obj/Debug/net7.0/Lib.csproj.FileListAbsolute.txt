@@ -1,0 +1,47 @@
+/Users/lopink/Projects/Group3/Lib/bin/Debug/net7.0/Lib.deps.json
+/Users/lopink/Projects/Group3/Lib/bin/Debug/net7.0/Lib.dll
+/Users/lopink/Projects/Group3/Lib/bin/Debug/net7.0/Lib.pdb
+/Users/lopink/Projects/Group3/Lib/obj/Debug/net7.0/Lib.csproj.AssemblyReference.cache
+/Users/lopink/Projects/Group3/Lib/obj/Debug/net7.0/Lib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lopink/Projects/Group3/Lib/obj/Debug/net7.0/Lib.AssemblyInfoInputs.cache
+/Users/lopink/Projects/Group3/Lib/obj/Debug/net7.0/Lib.AssemblyInfo.cs
+/Users/lopink/Projects/Group3/Lib/obj/Debug/net7.0/Lib.csproj.CoreCompileInputs.cache
+/Users/lopink/Projects/Group3/Lib/obj/Debug/net7.0/Lib.dll
+/Users/lopink/Projects/Group3/Lib/obj/Debug/net7.0/refint/Lib.dll
+/Users/lopink/Projects/Group3/Lib/obj/Debug/net7.0/Lib.pdb
+/Users/lopink/Projects/Group3/Lib/obj/Debug/net7.0/ref/Lib.dll
+/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3/Lib/bin/Debug/net7.0/Lib.deps.json
+/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3/Lib/bin/Debug/net7.0/Lib.dll
+/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3/Lib/bin/Debug/net7.0/Lib.pdb
+/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3/Lib/obj/Debug/net7.0/Lib.csproj.AssemblyReference.cache
+/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3/Lib/obj/Debug/net7.0/Lib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3/Lib/obj/Debug/net7.0/Lib.AssemblyInfoInputs.cache
+/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3/Lib/obj/Debug/net7.0/Lib.AssemblyInfo.cs
+/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3/Lib/obj/Debug/net7.0/Lib.csproj.CoreCompileInputs.cache
+/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3/Lib/obj/Debug/net7.0/Lib.dll
+/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3/Lib/obj/Debug/net7.0/refint/Lib.dll
+/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3/Lib/obj/Debug/net7.0/Lib.pdb
+/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3/Lib/obj/Debug/net7.0/ref/Lib.dll
+C:/Users/NGUYEN NGOC DIEP/OneDrive/Desktop/Group3/Lib/bin/Debug/net7.0/Lib.deps.json
+C:/Users/NGUYEN NGOC DIEP/OneDrive/Desktop/Group3/Lib/bin/Debug/net7.0/Lib.dll
+C:/Users/NGUYEN NGOC DIEP/OneDrive/Desktop/Group3/Lib/bin/Debug/net7.0/Lib.pdb
+C:/Users/NGUYEN NGOC DIEP/OneDrive/Desktop/Group3/Lib/obj/Debug/net7.0/Lib.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/NGUYEN NGOC DIEP/OneDrive/Desktop/Group3/Lib/obj/Debug/net7.0/Lib.AssemblyInfoInputs.cache
+C:/Users/NGUYEN NGOC DIEP/OneDrive/Desktop/Group3/Lib/obj/Debug/net7.0/Lib.AssemblyInfo.cs
+C:/Users/NGUYEN NGOC DIEP/OneDrive/Desktop/Group3/Lib/obj/Debug/net7.0/Lib.csproj.CoreCompileInputs.cache
+C:/Users/NGUYEN NGOC DIEP/OneDrive/Desktop/Group3/Lib/obj/Debug/net7.0/Lib.dll
+C:/Users/NGUYEN NGOC DIEP/OneDrive/Desktop/Group3/Lib/obj/Debug/net7.0/refint/Lib.dll
+C:/Users/NGUYEN NGOC DIEP/OneDrive/Desktop/Group3/Lib/obj/Debug/net7.0/Lib.pdb
+C:/Users/NGUYEN NGOC DIEP/OneDrive/Desktop/Group3/Lib/obj/Debug/net7.0/ref/Lib.dll
+/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Lib/bin/Debug/net7.0/Lib.deps.json
+/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Lib/bin/Debug/net7.0/Lib.dll
+/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Lib/bin/Debug/net7.0/Lib.pdb
+/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Lib/obj/Debug/net7.0/Lib.csproj.AssemblyReference.cache
+/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Lib/obj/Debug/net7.0/Lib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Lib/obj/Debug/net7.0/Lib.AssemblyInfoInputs.cache
+/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Lib/obj/Debug/net7.0/Lib.AssemblyInfo.cs
+/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Lib/obj/Debug/net7.0/Lib.csproj.CoreCompileInputs.cache
+/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Lib/obj/Debug/net7.0/Lib.dll
+/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Lib/obj/Debug/net7.0/refint/Lib.dll
+/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Lib/obj/Debug/net7.0/Lib.pdb
+/Users/macos/Desktop/APTECH/Semester 3/Eproject/Group3 2/Lib/obj/Debug/net7.0/ref/Lib.dll

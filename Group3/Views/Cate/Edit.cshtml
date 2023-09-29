@@ -1,0 +1,55 @@
+﻿@model Lib.CatMst
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "_BackendLayout";
+}
+
+<div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+     data-sidebar-position="fixed" data-header-position="fixed">
+
+    @await Html.PartialAsync("~/Views/Backend/_Aside.cshtml")
+
+    <div class="body-wrapper">
+
+        @await Html.PartialAsync("~/Views/Backend/_Header.cshtml")
+
+        <div class="container-fluid">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title fw-semibold mb-4">Chỉnh sửa Category</h5>
+                    <div class="card">
+                        <div class="card-body">
+
+                            @if (!string.IsNullOrEmpty(TempData["msg"] as string))
+                            {
+                                <div class="alert alert-success">
+                                    @TempData["msg"]
+                                </div>
+                            }
+                            @if (!string.IsNullOrEmpty(TempData["errmsg"] as string))
+                            {
+                                <div class="alert alert-danger">
+                                    @TempData["errmsg"]
+                                </div>
+                            }
+                            <form asp-action="Edit" method="post" enctype="multipart/form-data">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <input type="hidden" asp-for="Cat_ID" />
+                                <div class="mb-3">
+                                    <label asp-for="Cat_Name" class="form-label">Category Name</label>
+                                    <input asp-for="Cat_Name" class="form-control" />
+                                    <span asp-validation-for="Cat_Name" class="text-danger form-text"></span>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Update</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div>
+                        <a class="btn btn-primary" asp-action="Index">Về trang chủ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

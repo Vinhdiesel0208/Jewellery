@@ -1,0 +1,137 @@
+﻿@model IEnumerable<Lib.Blogs>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_BackendLayout";
+    int i = 1;
+}
+
+<div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+     data-sidebar-position="fixed" data-header-position="fixed">
+
+    @await Html.PartialAsync("~/Views/Backend/_Aside.cshtml")
+
+    <div class="body-wrapper">
+
+        @await Html.PartialAsync("~/Views/Backend/_Header.cshtml")
+
+        <!-- Change this content if you need to modify -->
+        <div class="col-lg-12 d-flex align-items-stretch">
+            <div class="card w-100">
+                <div class="card-body p-4">
+                    <h5 class="card-title fw-semibold mb-4">New</h5>
+                    <a class="btn btn-info" asp-action="Create" asp-controller="Blog">Tạo mới Blog</a>
+                    <div class="table-responsive">
+                        @if (!string.IsNullOrEmpty(TempData["msg"] as string))
+                        {
+                            <div class="alert alert-success">
+                                @TempData["msg"]
+                            </div>
+                        }
+                        @if (!string.IsNullOrEmpty(TempData["errmsg"] as string))
+                        {
+                            <div class="alert alert-danger">
+                                @TempData["errmsg"]
+                            </div>
+                        }
+                        <table class="table text-nowrap mb-0 align-middle">
+                            <thead class="text-dark fs-4">
+                                <tr class="text-center">
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">#</h6>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">Tiêu đề</h6>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">Tóm tắt</h6>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">Nôi dung 1</h6>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">Nội dung 2</h6>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">Nội dung 3</h6>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">Tác giả</h6>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">Ngày Đăng</h6>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">Hình ảnh</h6>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">Điều khiển</h6>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr class="text-center">
+                                        <td class="border-bottom-0"><h6 class="fw-semibold mb-0">@i</h6></td>
+                                        <td class="border-bottom-0">
+                                            <p class="mb-0 fw-normal">@Html.DisplayFor(modelItem => item.Title)</p>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <p class="mb-0 fw-normal">@TruncateText(item.Summary,50)</p>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <p class="mb-0 fw-normal">@TruncateText(item.Content1,50)</p>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <p class="mb-0 fw-normal">@TruncateText(item.Content2,50)</p>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <p class="mb-0 fw-normal">@TruncateText(item.Content3,50)</p>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <p class="mb-0 fw-normal">@Html.DisplayFor(modelItem => item.Author)</p>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <p class="mb-0 fw-normal">@item.PublishDate.ToString("dd/MM/yyyy")</p>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <p class="mb-0 fw-normal">
+                                                <img src="@Url.Content("~/images/Blogs/"+item.Photo)" width="100" height="100">
+                                            </p>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <a class="btn btn-info" asp-route-id="@item.ID" asp-action="Edit" asp-controller="Blog">
+                                                <i class="fa fa-gear"></i>
+                                            </a>
+                                            <form asp-action="Delete" asp-controller="Blog" method="post" enctype="multipart/form-data">
+                                                <input type="hidden" name="id" value="@item.ID">
+                                                <button type="submit" class="btn btn-danger">
+                                                    <i class="fa fa-trash"></i>
+                                                </button>
+                                            </form>
+                                        </td>
+
+                                    </tr>
+                                    i++;
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End change -->
+
+    </div>
+</div>
+@functions {
+    public string TruncateText(string text, int maxLength)
+    {
+        if (text.Length > maxLength)
+        {
+            return text.Substring(0, maxLength) + "...";
+        }
+        return text;
+    }
+}
